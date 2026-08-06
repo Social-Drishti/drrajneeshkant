@@ -1,6 +1,0 @@
-{
-  "name": "Doctor Appointment CMS & Booking System",
-  "description": "Chiroconnect practice website and real-time CMS for Dr. Rajneesh Kant (Chiropractor & Spine Specialist in Mumbai & Patna). Features live appointment slot booking, WhatsApp lead integration, and doctor management portal.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
