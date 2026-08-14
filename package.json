@@ -1,0 +1,18 @@
+{
+  "name": "clinic-project",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "backend",
+    "frontend/cms"
+  ],
+  "scripts": {
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend/cms",
+    "dev": "npm run dev --prefix backend",
+    "build:cms": "npm run build --prefix frontend/cms",
+    "build:all": "npm run build:cms",
+    "start": "npm run start --prefix backend",
+    "lint": "npm run lint --prefix backend && npm run lint --prefix frontend/cms"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Dr. Rajneesh Kant Clinic Photos &amp; Videos</title>
+    <meta name="description" content="Explore Dr. Rajneesh Kant's clinic gallery – photos of treatment sessions, clinic interiors and expert chiropractic videos.">
+    <script> window.FontAwesomeConfig = { autoReplaceSvg: 'nest'};</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { inter: ['Inter','sans-serif'], playfair: ['Playfair Display','serif'] },
+                    colors: {
+                        primary: '#0b3b8c',
+                        primaryLight: '#2563eb',
+                        primaryDark: '#071e45',
+                        accent: '#00d4ff',
+                        accentLight: '#e6fbff',
+                        dark: '#04101f',
+                        surface: '#f3f8ff',
+                        gold: '#f5b301'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/bold.css">
+</head>
+<body data-page="gallery" class="font-inter bg-white text-gray-900 antialiased">
+
+<a href="https://wa.me/919031554875?text=Hello%20Dr.%20Rajneesh,%20I%20want%20to%20book%20an%20appointment" target="_blank" rel="noopener"
+   class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-transform hover:scale-110">
+    <i class="fa-brands fa-whatsapp text-2xl"></i>
+</a>
+
+<nav class="sticky top-0 w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-[68px]">
+        <a href="index.html" class="flex items-center gap-2.5">
+            <img src="assets/images/logo.jpg" alt="Dr. Rajneesh Kant Logo" class="w-10 h-10 object-contain" />
+            <div>
+                <span class="font-playfair text-xl font-bold text-primary">Chiro<span class="text-accent">connect</span></span>
+                <p class="text-[10px] text-gray-400 -mt-0.5 tracking-wider uppercase">Dr. Rajneesh Kant</p>
+            </div>
+        </a>
+        <div id="desktopNav" class="hidden lg:flex items-center gap-7 text-sm font-medium text-gray-600">
+            <a href="index.html" class="hover:text-primary transition-colors duration-200">Home</a>
+            <a href="about.html" class="hover:text-primary transition-colors duration-200">About</a>
+            <a href="treatments.html" class="hover:text-primary transition-colors duration-200">Treatments</a>
+            <a href="branches.html" class="hover:text-primary transition-colors duration-200">Branches</a>
+            <a href="blogs.html" class="hover:text-primary transition-colors duration-200">Blogs</a>
+            <a href="gallery.html" class="hover:text-primary transition-colors duration-200">Gallery</a>
+            <a href="contact.html" class="hover:text-primary transition-colors duration-200">Contact</a>
+            <a href="booking.html" class="bg-gradient-to-r from-primary to-primaryLight text-white px-5 py-2.5 rounded-full hover:shadow-lg hover:shadow-primary/30 transition-all duration-200 font-semibold">Book Appointment</a>
+        </div>
+        <button id="menuBtn" class="lg:hidden text-primary text-xl p-2" aria-label="Toggle menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+    <div id="mobileMenu" class="hidden lg:hidden bg-white border-t border-gray-100 px-4 pb-5 pt-3 space-y-2 text-sm font-medium text-gray-700">
+        <a href="index.html" class="block py-2 hover:text-primary">Home</a>
+        <a href="about.html" class="block py-2 hover:text-primary">About</a>
+        <a href="treatments.html" class="block py-2 hover:text-primary">Treatments</a>
+        <a href="branches.html" class="block py-2 hover:text-primary">Branches</a>
+        <a href="blogs.html" class="block py-2 hover:text-primary">Blogs</a>
+        <a href="gallery.html" class="block py-2 hover:text-primary">Gallery</a>
+        <a href="contact.html" class="block py-2 hover:text-primary">Contact</a>
+        <a href="booking.html" class="block bg-primary text-white px-4 py-2.5 rounded-full text-center mt-2">Book Appointment</a>
+    </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<section class="bg-gradient-to-br from-primaryDark via-primary to-primaryLight py-16 lg:py-20 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10">
+        <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_9190f15486_939b6be11813095b.png" alt="" />
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 text-center">
+        <span class="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/20 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-4 uppercase tracking-widest">
+            <span class="w-2 h-2 bg-accent rounded-full"></span> Gallery
+        </span>
+        <h1 class="font-playfair text-4xl lg:text-5xl font-bold text-white">Our Clinic Gallery</h1>
+        <p class="text-white/70 mt-3 text-lg">Explore expert chiropractic treatments, physiotherapy sessions and patient recovery stories.</p>
+    </div>
+</section>
+
+<!-- PHOTO GALLERY -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-12">
+            <span class="inline-flex items-center gap-2 text-accent font-semibold uppercase tracking-widest text-xs mb-3">
+                <span class="w-8 h-0.5 bg-accent inline-block"></span> Photos <span class="w-8 h-0.5 bg-accent inline-block"></span>
+            </span>
+            <h2 class="font-playfair text-4xl font-bold text-primary mt-1">Inside Our Clinics</h2>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <img src="assets/images/profile-dr.png" alt="Dr. Rajneesh Kant" data-lightbox class="w-full h-64 object-cover rounded-3xl cursor-pointer hover:scale-[1.02] hover:shadow-xl transition-all duration-300" />
+            <img src="assets/images/bg-dr.png" alt="Dr. Rajneesh Kant at work" data-lightbox class="w-full h-64 object-cover rounded-3xl cursor-pointer hover:scale-[1.02] hover:shadow-xl transition-all duration-300" />
+            <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_5ceb77f650_0a5c6d41a889422a.png" alt="Mumbai clinic interior" data-lightbox class="w-full h-64 object-cover rounded-3xl cursor-pointer hover:scale-[1.02] hover:shadow-xl transition-all duration-300" />
+            <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_2641c8cb2a_53ab7c3838bd6ee6.png" alt="Patna clinic reception" data-lightbox class="w-full h-64 object-cover rounded-3xl cursor-pointer hover:scale-[1.02] hover:shadow-xl transition-all duration-300" />
+            <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1200&auto=format&fit=crop" alt="Chiropractic session" data-lightbox class="w-full h-64 object-cover rounded-3xl cursor-pointer hover:scale-[1.02] hover:shadow-xl transition-all duration-300" />
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1200&auto=format&fit=crop" alt="Physiotherapy exercise" data-lightbox class="w-full h-64 object-cover rounded-3xl cursor-pointer hover:scale-[1.02] hover:shadow-xl transition-all duration-300" />
+            <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_f5cf847915_3eacaa6bc83d96a9.png" alt="Spine health and posture" data-lightbox class="w-full h-64 object-cover rounded-3xl cursor-pointer hover:scale-[1.02] hover:shadow-xl transition-all duration-300" />
+            <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_8e9e331d8a_223b5b34fdebd1ae.png" alt="Treatment adjustment session" data-lightbox class="w-full h-64 object-cover rounded-3xl cursor-pointer hover:scale-[1.02] hover:shadow-xl transition-all duration-300" />
+            <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_9e7e3778b4_99bae13566050e64.png" alt="Ergonomic workspace posture" data-lightbox class="w-full h-64 object-cover rounded-3xl cursor-pointer hover:scale-[1.02] hover:shadow-xl transition-all duration-300" />
+        </div>
+    </div>
+</section>
+
+<!-- VIDEOS -->
+<section class="py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-12">
+            <span class="inline-flex items-center gap-2 text-accent font-semibold uppercase tracking-widest text-xs mb-3">
+                <span class="w-8 h-0.5 bg-accent inline-block"></span> Watch Our Videos <span class="w-8 h-0.5 bg-accent inline-block"></span>
+            </span>
+            <h2 class="font-playfair text-4xl font-bold text-primary mt-1">Expert Treatment Videos</h2>
+            <p class="text-gray-500 mt-3 max-w-xl mx-auto">Explore chiropractic treatments, physiotherapy sessions, spine correction techniques and recovery stories.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="https://youtube.com/watch?v=qbjv-pX-fF8" target="_blank" rel="noopener" class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100">
+                <div class="relative h-44 overflow-hidden">
+                    <img src="https://img.youtube.com/vi/qbjv-pX-fF8/hqdefault.jpg" alt="Back Pain Chiropractic Treatment" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition">
+                        <div class="w-14 h-14 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition">
+                            <i class="fa-solid fa-play text-primary ml-1"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-semibold text-gray-800 text-sm leading-snug group-hover:text-primary transition">Back Pain Chiropractic Treatment</h3>
+                    <p class="text-xs text-gray-400 mt-1">Watch On YouTube</p>
+                </div>
+            </a>
+            <a href="https://youtube.com/watch?v=79zkdpnfgSw" target="_blank" rel="noopener" class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100">
+                <div class="relative h-44 overflow-hidden">
+                    <img src="https://img.youtube.com/vi/79zkdpnfgSw/hqdefault.jpg" alt="Advanced Spine Therapy Session" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition">
+                        <div class="w-14 h-14 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition">
+                            <i class="fa-solid fa-play text-primary ml-1"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-semibold text-gray-800 text-sm leading-snug group-hover:text-primary transition">Advanced Spine Therapy Session</h3>
+                    <p class="text-xs text-gray-400 mt-1">Watch On YouTube</p>
+                </div>
+            </a>
+            <a href="https://youtube.com/watch?v=iGy0RvG3T38" target="_blank" rel="noopener" class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100">
+                <div class="relative h-44 overflow-hidden">
+                    <img src="https://img.youtube.com/vi/iGy0RvG3T38/hqdefault.jpg" alt="Sciatica Pain Relief Exercises" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition">
+                        <div class="w-14 h-14 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition">
+                            <i class="fa-solid fa-play text-primary ml-1"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-semibold text-gray-800 text-sm leading-snug group-hover:text-primary transition">Sciatica Pain Relief Exercises</h3>
+                    <p class="text-xs text-gray-400 mt-1">Watch On YouTube</p>
+                </div>
+            </a>
+            <a href="https://youtube.com/watch?v=GqAxjIVcioA" target="_blank" rel="noopener" class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100">
+                <div class="relative h-44 overflow-hidden">
+                    <img src="https://img.youtube.com/vi/GqAxjIVcioA/hqdefault.jpg" alt="Posture Correction Therapy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition">
+                        <div class="w-14 h-14 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition">
+                            <i class="fa-solid fa-play text-primary ml-1"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h3 class="font-semibold text-gray-800 text-sm leading-snug group-hover:text-primary transition">Posture Correction Therapy</h3>
+                    <p class="text-xs text-gray-400 mt-1">Watch On YouTube</p>
+                </div>
+            </a>
+        </div>
+        <div class="text-center mt-10">
+            <a href="https://www.youtube.com/@drrajneeshkant" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3.5 rounded-full transition-all duration-200">
+                <i class="fa-brands fa-youtube"></i> Watch More Reels
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- SUCCESS STORIES -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-12">
+            <span class="inline-flex items-center gap-2 text-accent font-semibold uppercase tracking-widest text-xs mb-3">
+                <span class="w-8 h-0.5 bg-accent inline-block"></span> Patient Results <span class="w-8 h-0.5 bg-accent inline-block"></span>
+            </span>
+            <h2 class="font-playfair text-4xl font-bold text-primary mt-1">Recovery Stories That Inspire</h2>
+            <p class="text-gray-500 mt-3 max-w-xl mx-auto">Real patients, real progress. Here is what transformation looks like after consistent chiropractic and physiotherapy care.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-surface rounded-3xl p-6 border border-gray-100 hover:shadow-xl transition-all duration-300">
+                <div class="text-gold mb-3">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-sm text-gray-600 leading-relaxed mb-4">"I could barely sit at my desk for a month. After six sessions of spinal adjustment and rehab, my back pain is completely gone."</p>
+                <div class="border-t border-gray-200 pt-4">
+                    <p class="font-semibold text-primary text-sm">Rohan Mehta</p>
+                    <p class="text-xs text-gray-400">Chronic Lower Back Pain</p>
+                    <p class="text-xs font-semibold text-accent mt-2">Pain-free in 6 sessions</p>
+                </div>
+            </div>
+            <div class="bg-surface rounded-3xl p-6 border border-gray-100 hover:shadow-xl transition-all duration-300">
+                <div class="text-gold mb-3">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-sm text-gray-600 leading-relaxed mb-4">"The numbness in my leg disappeared within two weeks of treatment. I finally walked without that shooting pain down my thigh."</p>
+                <div class="border-t border-gray-200 pt-4">
+                    <p class="font-semibold text-primary text-sm">Sunita Devi</p>
+                    <p class="text-xs text-gray-400">Sciatica &amp; Leg Numbness</p>
+                    <p class="text-xs font-semibold text-accent mt-2">Walking pain-free in 2 weeks</p>
+                </div>
+            </div>
+            <div class="bg-surface rounded-3xl p-6 border border-gray-100 hover:shadow-xl transition-all duration-300">
+                <div class="text-gold mb-3">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-sm text-gray-600 leading-relaxed mb-4">"A shoulder injury almost ended my season. Targeted physiotherapy and dry needling got me back on the court stronger than before."</p>
+                <div class="border-t border-gray-200 pt-4">
+                    <p class="font-semibold text-primary text-sm">Arjun Singh</p>
+                    <p class="text-xs text-gray-400">Sports Injury – Shoulder</p>
+                    <p class="text-xs font-semibold text-accent mt-2">Back to sport in 4 weeks</p>
+                </div>
+            </div>
+            <div class="bg-surface rounded-3xl p-6 border border-gray-100 hover:shadow-xl transition-all duration-300">
+                <div class="text-gold mb-3">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-sm text-gray-600 leading-relaxed mb-4">"I was scared surgery was the only option. The team corrected my posture and rebuilt my strength. Surgery never became necessary."</p>
+                <div class="border-t border-gray-200 pt-4">
+                    <p class="font-semibold text-primary text-sm">Neha Sharma</p>
+                    <p class="text-xs text-gray-400">Postural Correction &amp; Neck Pain</p>
+                    <p class="text-xs font-semibold text-accent mt-2">Avoided surgery in 8 weeks</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BEHIND THE SCENES -->
+<section class="py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-12">
+            <span class="inline-flex items-center gap-2 text-accent font-semibold uppercase tracking-widest text-xs mb-3">
+                <span class="w-8 h-0.5 bg-accent inline-block"></span> Inside The Clinic <span class="w-8 h-0.5 bg-accent inline-block"></span>
+            </span>
+            <h2 class="font-playfair text-4xl font-bold text-primary mt-1">A Day Behind The Scenes</h2>
+            <p class="text-gray-500 mt-3 max-w-xl mx-auto">From preparation to recovery planning, this is how every patient journey begins at Chiroconnect.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="group rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300">
+                <img src="assets/images/bg-dr.png" alt="Preparing for treatment" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" />
+                <div class="bg-white p-5">
+                    <p class="font-semibold text-primary">Morning Preparation</p>
+                    <p class="text-sm text-gray-500 mt-1">Equipment checks and sterilisation before the first patient arrives.</p>
+                </div>
+            </div>
+            <div class="group rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300">
+                <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_5ceb77f650_0a5c6d41a889422a.png" alt="Mumbai clinic treatment room" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" />
+                <div class="bg-white p-5">
+                    <p class="font-semibold text-primary">Treatment Sessions</p>
+                    <p class="text-sm text-gray-500 mt-1">Hands-on adjustments combined with modern therapy equipment.</p>
+                </div>
+            </div>
+            <div class="group rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300">
+                <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_2641c8cb2a_53ab7c3838bd6ee6.png" alt="Patna clinic reception" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" />
+                <div class="bg-white p-5">
+                    <p class="font-semibold text-primary">Recovery Planning</p>
+                    <p class="text-sm text-gray-500 mt-1">Personalised rehab plans and home exercise guidance for lasting results.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center">
+        <h2 class="font-playfair text-4xl font-bold text-primary mb-4">Ready For Your Transformation?</h2>
+        <p class="text-gray-500 text-[15px] max-w-xl mx-auto mb-8">Join thousands who've experienced life-changing results. Book your consultation today and become our next success story.</p>
+        <a href="booking.html" class="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-primaryLight text-white font-bold px-8 py-4 rounded-full hover:shadow-xl hover:shadow-primary/30 transition-all duration-200">Book Your Session</a>
+    </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="hidden fixed inset-0 z-[60] bg-black/90 flex items-center justify-center p-4 cursor-pointer">
+    <img id="lightboxImg" src="" alt="Gallery preview" class="max-w-full max-h-[90vh] rounded-2xl" />
+</div>
+
+<footer class="bg-dark text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-14 pb-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-white/10">
+            <div class="lg:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center">
+                        <i class="fa-solid fa-bone text-white text-sm"></i>
+                    </div>
+                    <div>
+                        <span class="font-playfair text-xl font-bold">Chiro<span class="text-accent">connect</span></span>
+                        <p class="text-[10px] text-gray-400 -mt-0.5 tracking-wider uppercase">Dr. Rajneesh Kant</p>
+                    </div>
+                </div>
+                <p class="text-gray-400 text-sm leading-relaxed max-w-sm mb-5">India's leading chiropractor and physiotherapist delivering advanced non-surgical treatment for pain relief, posture correction, and spinal care.</p>
+                <div class="flex gap-3">
+                    <a href="https://www.facebook.com/backtonaturespineclinicbydrrajneeshkant" target="_blank" rel="noopener" class="w-9 h-9 bg-white/10 hover:bg-accent rounded-lg flex items-center justify-center transition"><i class="fa-brands fa-facebook-f text-sm"></i></a>
+                    <a href="https://www.instagram.com/backtonaturespineclinic/" target="_blank" rel="noopener" class="w-9 h-9 bg-white/10 hover:bg-accent rounded-lg flex items-center justify-center transition"><i class="fa-brands fa-instagram text-sm"></i></a>
+                    <a href="https://www.youtube.com/@drrajneeshkant" target="_blank" rel="noopener" class="w-9 h-9 bg-white/10 hover:bg-accent rounded-lg flex items-center justify-center transition"><i class="fa-brands fa-youtube text-sm"></i></a>
+                    <a href="https://wa.me/919031554875" target="_blank" rel="noopener" class="w-9 h-9 bg-white/10 hover:bg-green-500 rounded-lg flex items-center justify-center transition"><i class="fa-brands fa-whatsapp text-sm"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Treatments</h4>
+                <ul class="space-y-2.5 text-sm text-gray-400">
+                    <li><a href="treatments.html" class="hover:text-accent transition">Back Pain Treatment</a></li>
+                    <li><a href="treatments.html" class="hover:text-accent transition">Neck Pain Therapy</a></li>
+                    <li><a href="treatments.html" class="hover:text-accent transition">Sciatica Treatment</a></li>
+                    <li><a href="treatments.html" class="hover:text-accent transition">Spine Adjustment</a></li>
+                    <li><a href="treatments.html" class="hover:text-accent transition">Post Surgery Rehab</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Contact Us</h4>
+                <ul class="space-y-3 text-sm text-gray-400">
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-location-dot text-accent mt-0.5 flex-shrink-0"></i>Mumbai · Andheri West, 400053</li>
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-location-dot text-accent mt-0.5 flex-shrink-0"></i>Patna · Anisabad, 800002</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-phone text-accent flex-shrink-0"></i>+91 93085 11357</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-envelope text-accent flex-shrink-0"></i>rajnish8989@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-500">
+            <p>© 2026 Dr. Rajneesh Kant. All rights reserved.</p>
+            <div class="flex gap-4">
+                <a href="#" class="hover:text-accent transition">Privacy Policy</a>
+                <a href="#" class="hover:text-accent transition">Terms of Service</a>
+                <a href="#" class="hover:text-accent transition">Disclaimer</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
